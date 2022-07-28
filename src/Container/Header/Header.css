@@ -1,0 +1,68 @@
+.logo-header{
+    width: 52px;
+    height:52px;
+}
+header{
+    height: 100px;
+    display: flex;
+    width: 100%;
+    align-content: space-around;
+    align-items: center;
+    
+}
+.header-r{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: var(--nav-height);
+    justify-content: space-between;
+    flex-direction: row;
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+}
+ol li{
+    padding-right: 15px;
+}
+
+.sidebar li a{
+    font-size: var(--fz-xs);
+    color: var(--lightest-slate);
+    font-family: var(--font-mono);
+    padding: 10px;
+}
+ol li::marker {
+    margin-right: 5px;
+    color: var(--green);
+    font-size: var(--fz-xxs);
+    text-align: right;
+}
+.resume-button{
+    color: var(--green);
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 15px;
+    font-size: var(--fz-xs);
+}
+.header-r div{
+    align-items: center;
+    display: flex;
+}
+.cont-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
